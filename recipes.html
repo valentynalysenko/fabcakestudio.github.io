@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css.index.css"/>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<title>Recipes</title>
+
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="navbar">
+			<ul id="navlist">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="recipes.html">Recipes</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="bodycontent">
+		<div class="italic">
+			<h1>WHITE CHOCOLATE CREAM GATEAU</h1><br />
+			<em>This gateau is richly layered with white chocolate cream and fresh berries. There are no tricky techniques and this spectacular cake is simple for a beginner to make.</em>
+		</div>
+			<div id="leftbox">
+				<div class="leftbox_rotate_left"><img class="bodyimage" src="Images/img1rec.jpg" alt="cake"/></div><br />
+				<div class="leftbox_rotate_right"><img class="bodyimage" src="Images/img2rec.jpg" alt="cake"/></div><br />
+				<div class="leftbox_rotate_left"><img class="bodyimage" src="Images/img3rec.jpg" alt="cake"/></div>
+			</div>
+				
+			<div id="righttbox">
+				<div class="form">
+					<p>Enter your age then click the button<br />
+					to check if you are old enough to bake<br />
+					this cake with no adult supervision</p>
+					Age:<input id="age" value="16"/>
+					<p>Old enough to bake?</p>
+					<button onclick="myFunction()">Check it</button>
+					<p id="demo"></p>
+				<script type="text/javascript">
+					function myFunction()
+					{
+					var age,voteable;
+					age=document.getElementById("age").value;
+					voteable=(age<18)?"Too young":"Old enough";
+					document.getElementById("demo").innerHTML=voteable;
+					}
+				</script>
+				</div>
+					
+					<em>CAKE INGRIDIENTS</em>
+						<ul>
+							<li>125 g cream cheese</li>
+							<li>60g butter</li>
+							<li>2 eggs, lightly beaten</li>
+							<li>100 g dark chocolate, melted</li>
+							<li>250 g of plain flour</li>
+							<li>30 g cocoa powder</li>
+							<li>1 teaspoon bicarbonate of soda</li>
+							<li>500 ml thick cream, whipped</li>
+							<li>250 g strawberries or raspberries</li>
+						</ul><br />
+
+					<em>WHITE CHOCOLATE CREAM</em>
+						<ul>
+							<li>125 g white chocolate buttons (melted)</li>
+							<li>60 ml cream</li>
+						</ul><br />
+						
+					<em>EQUIPMENT</em>
+						<p>20 cm round cake tin</p><br />
+						
+					<em>BAKING THE CAKE</em>
+						<p>1. Preheat oven to 180* C. Using electric beaters, beat the cream cheese, butter and sugar in a small bowl until light and creamy. Add the eggs gradually, beating thoroughly after each addition. Add the melted chocolate and beat until the mixture is smooth.</p><br />
+						<p>2. Transfer the mixture to a large bowl. Using a metal spoon, fold in the sifted flour, cocoa an soda alternately with 185 ml of water. Stir until the mixture is smooth. Pour evenly into the tin. Bake for 45-50 minutes. Leave the cake in the tin for 5-10 minutes, then turn out onto a wire rack to cool.</p><br />
+						
+					<em>WHITE CHOCOLATE CREAM</em>
+						<p>3. To make the white chocolate cream, combine the white chocolate buttons and cream in a small heatproof bowl. Bring a small pan of water to a simmer, remove from the heat and place the bowl over the pan. Stir over the hot water until melted and the mixture is smooth. Cool in the refrigerator until spreadable, stirring occasionally.</p><br />
+						
+					<em>DECORATING THE CAKE</em>
+						<p>4. Cut the cake horizontally into three even layers. Place the base layer on a serving plate. Spread with half of the white chocolate cream, top with one-fifth of the whipped cream, then half of the quartered berries. Top with the second layer of cake and repeat the layering with the remaining white chocolate cream, a quarter of a 
+							whipped cream and the rest of quartered berries. Top with the last layer of cake. Spread the cake side and top evenly with the remaining whipped cream. If you have a piping bag you can pipe swirls of cream on top of the cake. Decorate the top of the cake with the whole or halved berries.</p><br />
+							
+					<em>NOTE</em>
+						<p>The basic cake can be made several days in advance and stored in the refrigerator.</p>
+		
+			</div>
+			
+		<div id="footer">Copyright © ValentynaLysenko</div>
+		
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+.pic{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 45px;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color: white;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	float: left;
+	box-shadow: 5px 5px 5px #111;
+}
+.pic:hover{
+	cursor: pointer;
+}
+
+.text{
+	width: 210px;
+	height: 20px;
+	background: #036;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: 45px;
+	float:left;
+	font: 100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #fff;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color: white;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	box-shadow: 5px 5px 5px #111;
+}
+
+/*GROW*/
+.grow img {
+  height: 200px;
+  width: 200px;
+	}
+  
+  .grow img:hover {
+  width: 300px;
+  height: 300px;
+	}

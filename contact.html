@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script type="text/javascript" src="contact_validation.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.index.css"/>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css.gallery.css"/>
+	<title>Contact</title>
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="navbar">
+			<ul id="navlist">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="recipes.html">Recipes</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	<div id="bodycontent_index">
+	
+		<div class="italic">
+		<h1>WELCOME TO FAB CAKE STUDIO</h1><br />
+		<em>Please feel free to contact us</em>
+		</div>
+		
+		<div id="righttbox_contact">
+			<p>Please, leave your comments</p><br />
+			
+				<form onsubmit="return checkForm();" method="post" action="mailto:valentynalysenko@yahoo.ie">
+					<div class="contact_name">
+						<span class="contact_label">Name:*</span> 
+						<input type="text" id="name"/><br />
+						<div class="error" id="nameError">Required: Please enter your name<br /></div>
+					</div>
+					
+					<div class="contact_email">
+						<span class="contact_label">Email:*</span> 
+						<input type="text" id="email"/><br />
+						<div class="error" id="emailError">Required: Please enter your email address<br /></div>
+					</div>
+					
+					<div class="contact_comment">
+						<span class="contact_label">Message:*</span> 
+						<textarea id="comment" rows="10" cols="35"></textarea>
+						<div class="error" id="commentError">Required: Please enter a message<br /></div>
+					</div>
+					
+					<div class="contact_submit">
+						<input type='submit' value='Submit'/>
+					</div>
+				</form>
+		</div>
+		
+		<div id="leftbox_facebook"><a href="https://www.facebook.com/home.php#!/pages/Fab-Cake-Studio/246609352085518"><img class="c1" src="Images/icon-facebook.png" alt="facebook" width="100" height="100"/></a></div>
+
+		<div id="footer">Copyright © ValentynaLysenko</div>
+		
+	</div>
+	
+</body>
+</html>
